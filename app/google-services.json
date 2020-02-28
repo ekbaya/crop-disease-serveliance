@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "917937490060",
+    "firebase_url": "https://crop-monitor-1ac92.firebaseio.com",
+    "project_id": "crop-monitor-1ac92",
+    "storage_bucket": "crop-monitor-1ac92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917937490060:android:6bc3599bf6d80c6f2713a9",
+        "android_client_info": {
+          "package_name": "com.example.cropmonitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917937490060-qvuo52meu8efrebkpj8st2omji9hn86g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cropmonitor",
+            "certificate_hash": "5d62fa82af424c528c9149f6b45fb47eb7b8c490"
+          }
+        },
+        {
+          "client_id": "917937490060-rg7lirs90a79ik3vktkm2d0ncr29ueb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBifGXQP7Axx9GggEiADhvkiqHcQhPz0RM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917937490060-rg7lirs90a79ik3vktkm2d0ncr29ueb2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

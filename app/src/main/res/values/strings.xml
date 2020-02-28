@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Crop Monitor</string>
+    <string name="about">
+        Dear Recipient Name,
+        To get started, click placeholder text and start typing.
+        Double-click the table cells in the footer to add your contact info (or delete the columns you don’t want).
+        Use your cover letter to show how your talent and experience will solve a problem or drive results for your future employer.
+    </string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="google_maps_api_key">AIzaSyBozgdcoXc0xTs3jcqUvx4oJIh2af1tjuY</string>
+</resources>

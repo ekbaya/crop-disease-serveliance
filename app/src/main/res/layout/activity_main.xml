@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textColor="#fff"
+            android:text="Crop Tracker"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="@string/about"
+            android:textSize="15sp"
+            android:layout_marginTop="25dp"/>
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <Button
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonstylepink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn More"
+                android:textColor="#fff"/>
+            <Button
+                android:id="@+id/registerBtn"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonstyle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textColor="#fff"/>
+        </LinearLayout>
+    </LinearLayout>
+   <LinearLayout
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <EditText
+           android:id="@+id/emailET"
+           android:drawablePadding="10dp"
+           android:drawableLeft="@drawable/ic_email"
+           android:layout_width="350dp"
+           android:layout_height="wrap_content"
+           android:hint="EMAIL"
+           android:inputType="textEmailAddress"/>
+       <EditText
+           android:id="@+id/passwordET"
+           android:drawablePadding="10dp"
+           android:drawableLeft="@drawable/ic_lock_outline"
+           android:layout_width="350dp"
+           android:layout_height="wrap_content"
+           android:hint="PASSWORD"
+           android:inputType="textPassword"/>
+       <Button
+           android:id="@+id/loginBtn"
+           android:drawableRight="@drawable/ic_send"
+           android:layout_marginTop="0dp"
+           android:layout_width="130dp"
+           android:layout_height="wrap_content"
+           android:background="@drawable/buttonstylepink"
+           android:text="Login"
+           android:textColor="#fff"/>
+
+       <TextView
+           android:id="@+id/forgetPasswordTV"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="70dp"
+           android:layout_marginTop="0dp"
+           android:text="Forgot Password "
+           android:textColor="@color/colorPrimary"
+           android:textSize="20sp"
+           android:textStyle="bold" />
+   </LinearLayout>
+
+</LinearLayout>
